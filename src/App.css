@@ -1,0 +1,64 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  --bg-text: #004643;
+  --text-color: #E8FFE0;
+}
+
+/* Element Content */
+.element-content-art-fp .element-card-fyp-x {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.element-content-art-fp {
+  max-width: 360px;
+  margin: auto;
+}
+
+.element-content-art-fp .element-card-fyp-x .card-item-xgy {
+  background-image: url('./assets/image/Rectangle 109 (2).jpg');
+  background-size: cover;
+  height: 11rem;
+  width: 10rem;
+}
+
+.element-content-art-fp .card-title-hyx {
+  background: var(--bg-text);
+  font-style: var(--text-color);
+}
+
+/* Element Navbar */
+.element-nav-btm-xy .element-navbar-xy {
+  max-width: 600px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 128, 129);
+  background: linear-gradient(180deg, rgba(0, 128, 129, 1) 20%, rgba(0, 27, 27, 1) 100%);
+}
+
+/* Element Al Quran */
+.component-al-quran {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.element_alquran_pages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.element_alquran_pages .card_element_alquran {
+  background: rgb(0, 128, 129);
+  background: linear-gradient(180deg, rgba(0, 128, 129, 1) 0%, rgba(0, 27, 27, 1) 100%);
+}
+
+/* Dekstop */
+
+/* Table */
+
+/* Mobile Responsive */

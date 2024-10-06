@@ -7,7 +7,7 @@ export default function ContentComponents() {
   return (
     <div>
       <div className="element-content-art-fp w-80">
-        <div className="element-card-fyp-x flex justify-center  py-9">
+        <div className="element-card-fyp-x flex justify-center  py-9 sm:py-2">
           {contentMenu.map((menu) => (
             <div className="card-item-xgy" key={menu.id}>
               <div className="card-image-hyx flex justify-center py-7">

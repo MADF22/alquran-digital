@@ -32,7 +32,7 @@ const AlquranPages = () => {
       <div className="element-search-component">
         <input
           type="text"
-          placeholder="Cari Surah..."
+          placeholder="Mau baca surah apa hari ini?"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="search-input w-auto"
@@ -48,7 +48,7 @@ const AlquranPages = () => {
               key={ayat.nomor}>
               <Link className="surah_links" to={`/SurahDetail/${ayat.nomor}`}>
                 <h3 className="title_text">{ayat.nama}</h3>
-                <h6 className="title_ayat">{ayat.nama_latin}</h6>
+                <h6 className="title_ayat py-3">{ayat.nama_latin}</h6>
                 <span className="bg_text">
                   {ayat.jumlah_ayat} {ayat.tempat_turun}
                 </span>

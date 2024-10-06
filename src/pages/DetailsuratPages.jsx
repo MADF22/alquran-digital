@@ -27,7 +27,7 @@ const DetailsuratPages = () => {
   }
 
   return (
-    <div className="p-4 w-96 content-center m-auto">
+    <div className="element-details-qy py-24 w-96 content-center m-auto">
       {surat.ayat.map((ayat) => (
         <div
           className="border-b border-gray-200 py-4 flex justify-between items-center"
@@ -36,8 +36,13 @@ const DetailsuratPages = () => {
             <p className="text-xl font-bold">{ayat.nomor}</p>
           </div>
           <div className="w-10/12">
-            <p className="text-right text-2xl font-semibold">{ayat.ar}</p>
-            <p className="text-left text-gray-700 mt-2">{ayat.idn}</p>
+            <p className="arab-qy text-right text-2xl font-semibold">
+              {ayat.ar}
+            </p>
+
+            <div className="art-alqyt text-left text-gray-400 mt-2">
+              {ayat.idn}
+            </div>
           </div>
         </div>
       ))}

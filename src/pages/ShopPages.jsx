@@ -1,5 +1,10 @@
 import React from "react";
+import Maintenance from "../components/Maintenance";
 
 export default function ShopPages() {
-  return <div>ShopPages</div>;
+  return (
+    <div>
+      <Maintenance />
+    </div>
+  );
 }
